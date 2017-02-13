@@ -11,8 +11,7 @@ namespace DiValVending.Models
     public class RegUser
     {
         [Key]
-        [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
-        public int User_Index { get;}
+        public int User_Index { get; set; }
         
     }
 }

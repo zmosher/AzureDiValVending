@@ -12,5 +12,6 @@ namespace DiValVending.Models
         { }
 
         public DbSet<RegUser> RegUsers { get; set; }
+        public DbSet<Roles> Roles { get; set; }
     }
 }
